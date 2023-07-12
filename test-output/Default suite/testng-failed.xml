@@ -6,10 +6,10 @@
       <class name="Test.Actitime_LoginLogout">
         <methods>
           <include name="loginLogoutMethod"/>
-          <include name="setUp"/>
-          <include name="executionEnd"/>
-          <include name="tearDown"/>
           <include name="executionStart"/>
+          <include name="tearDown"/>
+          <include name="executionEnd"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- Test.Actitime_LoginLogout -->
     </classes>

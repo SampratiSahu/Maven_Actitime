@@ -17,7 +17,7 @@ public class Actitime_LoginPage extends BasePage implements AutoConstant
 	WebDriver driver;
 	@FindBy(id="username")
 	private WebElement usernameTextfield;
-	@FindBy(name="pw")
+	@FindBy(name="pwd")
 	private WebElement passwordTextfield;
 	@FindBy(id="keepLoggedInCheckBox")
 	private WebElement checkbox;

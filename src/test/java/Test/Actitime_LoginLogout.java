@@ -6,11 +6,12 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import Generics.BaseTest;
+import Generics.BaseTestCrossBrowser;
 import POM.Actitime_HomePage;
 import POM.Actitime_LoginPage;
 
-@Listeners(Generics.MultipleScreenshot.class)
-public class Actitime_LoginLogout extends BaseTest
+
+public class Actitime_LoginLogout extends BaseTestCrossBrowser
 {
 	@Test
 	public void loginLogoutMethod() throws IOException, InterruptedException
